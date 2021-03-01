@@ -8,11 +8,138 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Contact Us</title>
   </head>
-  <body>
-    <h1>Hello, world!</h1>
-
+  <body style="background-color:lightblue;">
+    <div style="padding: 7em;">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark ">
+          <div class="container-fluid">
+            <i class="fa fa-shopping-bag me-2" aria-hidden="true" style="color: honeydew;"></i>
+            <a class="navbar-brand" href="#">Shopify</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Fashion
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Clothes</a></li>
+                    <li><a class="dropdown-item" href="#">Shoes</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Mix Branded</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="contactus.html">Contact us</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav> 
+    <form class="row g-3" style="background-color: cadetblue;">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputusername" class="form-label">username</label>
+          <input type="text" class="form-control" id="inputusername">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>Pakistan</option>
+            <option>USA</option>
+            <option>China</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+        <br/><br/>
+      </form>
+      <hr class="featurette-divider">
+  <footer class="pt-4 my-md-5 pt-md-5" style="background-color:cadetblue; color: cornsilk;">
+    <div class="row">
+      <div class="col-6 col-md" style="padding-left: 150px; color:cornsilk;">
+        <h5>About</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#" style="color: cornsilk;">Team</a></li>
+          <li><a class="link-secondary" href="#" style="color: cornsilk;">Locations</a></li>
+          <li><a class="link-secondary" href="#" style="color: cornsilk;">Privacy</a></li>
+          <li><a class="link-secondary" href="#" style="color: cornsilk;">Terms</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Features</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#" style="color: cornsilk;">Cool stuff</a></li>
+          <li><a class="link-secondary" href="#" style="color: cornsilk;">Random feature</a></li>
+          <li><a class="link-secondary" href="#" style="color: cornsilk;">Team feature</a></li>
+          <li><a class="link-secondary" href="#" style="color: cornsilk;">Stuff for developers</a></li>
+          <li><a class="link-secondary" href="#" style="color: cornsilk;">Another one</a></li>
+          <li><a class="link-secondary" href="#" style="color: cornsilk;">Last time</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Resources</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#" style="color: cornsilk;">Resource</a></li>
+          <li><a class="link-secondary" href="#" style="color: cornsilk;">Resource name</a></li>
+          <li><a class="link-secondary" href="#" style="color: cornsilk;">Another resource</a></li>
+          <li><a class="link-secondary" href="#" style="color: cornsilk;">Final resource</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>About</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#" style="color: cornsilk;">Team</a></li>
+          <li><a class="link-secondary" href="#" style="color: cornsilk;">Locations</a></li>
+          <li><a class="link-secondary" href="#" style="color: cornsilk;">Privacy</a></li>
+          <li><a class="link-secondary" href="#" style="color: cornsilk;">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+      </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
